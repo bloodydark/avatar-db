@@ -1,0 +1,29 @@
+@import '../../variable.scss';
+
+.section {
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 1rem;
+    width: 98%;    
+    .section_title {
+        background: $color;
+        padding: 10px;
+        color: $secondary-color;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: $normal;
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        margin-top: -5px;
+    }
+    .section_content {
+        padding: 20px;
+        padding-top: 10px;
+        .info {
+            margin-top:0;
+            padding-top: 0;
+            font-size: 0.9rem;
+        }
+    }
+}

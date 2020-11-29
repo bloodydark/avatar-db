@@ -1,0 +1,32 @@
+@import '../../variable.scss';
+@import '../PersonalInformation/index';
+@import '../EmployementHistory/index';
+@import '../EducationQualification/index';
+@import '../UploadDocuments/index';
+
+#candiate-container {
+    // margin: 0 auto;
+    // width: 80%;
+    margin: 0 auto;
+    width: 80%;
+    .sections-container {        
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    h2 {
+        text-align: center;
+    }    
+    .error-message{
+        font-size: 0.75rem;
+        color: red;
+        padding: 0;
+        margin: 0;
+    }
+    .file {
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+    }
+}
